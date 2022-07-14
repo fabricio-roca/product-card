@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+
+    <!-- STYLES -->
+    <link href="./style.css" rel="stylesheet">
+    <!--    FONTS     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section" id="menu">
+        <div class="container grid">
+        <h1>Input Product</h1>
+        <span>Name</span>
+        <input type="text" id="name" placeholder="Product Name"/>
+        <span>Value</span>
+        <input type="text" id="value" placeholder="Product Value"/>
+        <span>Stars</span>
+        <input type="number" id="star" min="1" max="5" placeholder="Stars"/>
+        <span>URL</span>
+        <input type="url" id="imagem" placeholder="URL Product"/>
+        <button type="submit" class="button" onclick="">Apply</button>
+        </div>
+    </section>
+    <section class="section" id="table">
+        <div class="container grid">
+            <table border="1">
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Value</th>
+                    <th>Stars</th>
+                    <th>url</th>
+                    <th>Action</th>
+                </thead>
+            </table>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
